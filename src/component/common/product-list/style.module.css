@@ -1,0 +1,38 @@
+.products{
+    background-color: rgb(238, 215, 215);
+    display: flex;
+    align-items: center;
+    align-content: center;
+    width: 50%;
+    margin-left:25%;
+    border-radius: 3px;
+}
+.productName{
+    background-color: aliceblue;
+    margin: 5%;
+    width: 240px;
+    border-radius: 5px;
+    padding: 15px;
+    float: right;
+    margin: 30px;
+    box-shadow: black 3px;
+    min-height: 103px;
+}
+.loadingBack{
+    position: absolute;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.308);
+    height:  100%;
+    width: 100%;
+    text-align: center;
+    z-index: 100;
+   padding-top:100px;
+}
+.addCardBtn{
+    background-color: #24bd24;
+    border-radius: 3px;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-top: 10px;
+}
