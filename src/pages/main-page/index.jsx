@@ -5,7 +5,6 @@ import NavBar from '../../component/common/nav-bar/index.jsx'
 import Products from '../../component/common/product-list/index'
 import Cart from '../../component/common/cart/index'
 import Styles from './style.module.css';
-import Forms from '../../form_test/index.jsx'
 // import { render } from 'sass';
 const navBarItem = {
   HOME: 'home',
@@ -63,9 +62,7 @@ const MainPage = () => {
           onItemClick={(itemName) => handleOnNavBarItemClick(itemName)}
           cartCountNumber={addToCartList.length} />
       </Header>
-      {/* <Forms>
-        
-      </Forms> */}
+
        <Cart
         list={addToCartList}
         onItemRemove={handleRemoveProduct}
